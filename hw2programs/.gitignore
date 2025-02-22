@@ -1,0 +1,25 @@
+# macOS system files
+.DS_Store
+
+# JetBrains IDE files
+.idea/
+
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Logs and temporary files
+*.log
+*.swp
+
+# Python virtual environments
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Other files that should not be tracked (customize as needed)
+*.bak
+*.tmp
