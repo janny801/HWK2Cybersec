@@ -7,8 +7,6 @@ hwk2encrypted.pcapng
 hwk2unencrypted.pcapng
 pcaptosubmit/
 
-# JetBrains IDE files
-.idea/
 
 # Python bytecode files
 *.pyc
