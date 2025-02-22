@@ -18,8 +18,9 @@ This project was developed for a cybersecurity class assignment. It demonstrates
 - Required cryptographic libraries (if any)
 
 ## Usage
-1. Start the server: `python server2.py`
-2. Run the client to send the file: `python client2.py`
+1. Start the server:  
+   `python server2.py`
+2. Run the client:  
+   `python client2.py`  
+   - When prompted, enter `MyFile.txt` as the file name.
 3. Verify that the received file is correctly decrypted.
-
-This assignment highlights the importance of encryption in securing file transfers against unauthorized access.
