@@ -29,3 +29,6 @@ env/
 # Other files that should not be tracked (customize as needed)
 *.bak
 *.tmp
+
+# JetBrains IDE files (PyCharm, IntelliJ, etc.)
+.idea/  # This directory contains project-specific settings and configurations for the JetBrains IDEs
