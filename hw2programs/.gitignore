@@ -1,6 +1,12 @@
 # macOS system files
 .DS_Store
 
+# Ignore specific files
+hw2instructions.pdf
+hwk2encrypted.pcapng
+hwk2unencrypted.pcapng
+pcaptosubmit/
+
 # JetBrains IDE files
 .idea/
 
