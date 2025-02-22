@@ -1,0 +1,5 @@
+PART 2: ENCRYPTED FILE TRANSFER
+
+This is a test file for Assignment 2.
+It is used for secure encrypted file transfer.
+Wireshark should capture this as encrypted data.

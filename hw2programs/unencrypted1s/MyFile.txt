@@ -1,0 +1,5 @@
+PART 1: UNENCRYPTED FILE TRANSFER
+
+This is a test file for Assignment 2.
+It is used for plaintext file transfer.
+Wireshark should capture this in plain text.
