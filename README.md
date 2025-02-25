@@ -117,8 +117,3 @@ File 'MyFile.txt' sent to the server successfully.
 Connection established with ('127.0.0.1', 61584).
 b'PART 2: ENCRYPTED FILE TRANSFER\nThis is a test file for Assignment 2.\nIt is used for secure encrypted file transfer.\nWireshark should capture this as encrypted data.\n'
 File 'MyFile.txt' received and saved.
-
-# Confirmation:
-This confirms that the file was successfully encrypted, transmitted, and decrypted on the server.
-
-
