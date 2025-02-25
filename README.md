@@ -75,10 +75,6 @@ By following these steps, you can confirm that the **hybrid encryption (RSA for 
 
 
 
-
-
-
-
 ## Requirements
 - Python 3.x
 - Required cryptographic libraries (if any)
@@ -94,4 +90,9 @@ By following these steps, you can confirm that the **hybrid encryption (RSA for 
 3. Verify that the received file is correctly decrypted.
 
 ## Example Output
+### **1. Running the Server**
+Start the server, which listens for incoming client connections:
+```bash
+python server2.py
+```
 
