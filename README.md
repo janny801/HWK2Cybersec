@@ -99,21 +99,21 @@ Start the server, which listens for incoming client connections:
 python server2.py
 ```
 
-# 2. Output (`server2.py`)
+### **2. Output (`server2.py`)**
 Server listening on 0.0.0.0:6000 ...
 
-# 3. Running the Client (`client2.py`)
+### **3. Running the Client (`client2.py`)**
 Run the client to send an encrypted file:
 ```bash
 python client2.py
 ```
 
-# 4. Output (`client2.py`)
+### **4. Output (`client2.py`)**
 Enter the file name : MyFile.txt
 Sent file metadata: MyFile.txt (size: 10 bytes)
 File 'MyFile.txt' sent to the server successfully.
 
-# 5. Server Receives and Processes the File (`server2.py`)
+### **5. Server Receives and Processes the File (`server2.py`)**
 Connection established with ('127.0.0.1', 61584).
 b'PART 2: ENCRYPTED FILE TRANSFER\nThis is a test file for Assignment 2.\nIt is used for secure encrypted file transfer.\nWireshark should capture this as encrypted data.\n'
 File 'MyFile.txt' received and saved.
