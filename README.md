@@ -92,7 +92,7 @@ By following these steps, you can confirm that the **hybrid encryption (RSA for 
 
 ## Example Output
 
-`
+
 ## **1. Running the Server (`server2.py`)**
 Start the server, which listens for incoming client connections:
 ```bash
