@@ -4,6 +4,13 @@
 This project was developed for a cybersecurity class assignment. I was given boilerplate code and tasked with filling in the functions between the `## BEGIN` and `## END` comments to understand how encryption works in secure file transfer. The project demonstrates secure encrypted file transfer between a client and a server using Python. The objective is to ensure confidentiality by encrypting file data during transmission, preventing unauthorized access.
 
 
+## Installation
+Before running the project, install the required dependencies:
+```bash
+pip install cryptography
+```
+
+
 ## Files
 - **client2.py** - Encrypts and sends a file to the server.
 - **server2.py** - Receives and decrypts the file from the client.
