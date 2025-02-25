@@ -50,6 +50,31 @@ tcp.port == 6000
 ```
 
 
+This filter will display only the packets exchanged between the client and server.
+
+### **3. Identify Encrypted Data**
+- Look for **TCP stream data** where the file is being transferred.
+- Since the file is **AES-encrypted**, the content will appear as **randomized binary data** rather than readable text.
+- You can compare the encrypted file transfer data with a plain-text transfer to observe the difference.
+
+### **4. Inspect Key Exchange**
+- The **RSA-encrypted AES key** will be transferred first.
+- Since RSA encryption is asymmetric, the **server's public key** is used for encryption.
+- You can locate the RSA key exchange by filtering for **large outgoing packets** from the client before the actual file transfer.
+
+### **5. Verify Encryption Effectiveness**
+- Open one of the captured packets and inspect its **payload**.
+- The file content should appear as **random bytes** due to AES encryption.
+- If you see readable text, encryption may not be applied correctly.
+
+### **6. Stop and Save the Capture**
+- Once the file transfer is complete, stop the capture.
+- Save the packet capture (`.pcapng`) file for further analysis if needed.
+
+By following these steps, you can confirm that the **hybrid encryption (RSA for key exchange + AES for file encryption)** is working correctly.
+
+
+
 
 
 
