@@ -83,6 +83,8 @@ By following these steps, you can confirm that the **hybrid encryption (RSA for 
 - Python 3.x
 - Required cryptographic libraries (if any)
 
+
+
 ## Usage
 1. Start the server:  
    `python server2.py`
@@ -90,3 +92,6 @@ By following these steps, you can confirm that the **hybrid encryption (RSA for 
    `python client2.py`  
    - When prompted, enter `MyFile.txt` as the file name.
 3. Verify that the received file is correctly decrypted.
+
+## Example Output
+
