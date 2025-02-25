@@ -33,6 +33,26 @@ pip install cryptography
 6. The transferred data should appear encrypted when analyzed with network tools like Wireshark.
 
 
+## Viewing Encrypted Data in Wireshark
+
+To analyze the encrypted file transfer using Wireshark, follow these steps:
+
+### **1. Start Capturing Packets**
+- Open **Wireshark**.
+- Select the network interface your system is using (e.g., `Loopback` if testing locally).
+- Click **Start Capture**.
+
+### **2. Apply a Filter to View the Client-Server Communication**
+Since the client (`client2.py`) and server (`server2.py`) communicate over **TCP port 6000**, apply the following filter in Wireshark:
+
+```bash
+tcp.port == 6000
+```
+
+
+
+
+
 
 ## Requirements
 - Python 3.x
