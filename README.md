@@ -97,6 +97,11 @@ By following these steps, you can confirm that the **hybrid encryption (RSA for 
 ```bash
 cd unencrypted1s
 ```
+**Note** : In this unencrypted version, Wireshark will capture everything in plain text, including the file name and file contents. This allows you to compare it with the encrypted version and observe the security risks of unencrypted transmission.
+
+
+
+
 
 ## Example Output
 
