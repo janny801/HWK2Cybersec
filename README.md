@@ -82,12 +82,17 @@ By following these steps, you can confirm that the **hybrid encryption (RSA for 
 
 
 ## Usage
-1. Start the server:  
+1. Navigate to the correct directory:
+   ```bash
+   cd encrypted2s
+   ```
+2.  Start the server:  
    `python server2.py`
-2. Run the client:  
+3.  Run the client:  
    `python client2.py`  
    - When prompted, enter `MyFile.txt` as the file name.
-3. Verify that the received file is correctly decrypted.
+4. Verify that the received file is correctly decrypted.
+
 
 
 ## Example Output
