@@ -93,9 +93,10 @@ By following these steps, you can confirm that the **hybrid encryption (RSA for 
    - When prompted, enter `MyFile.txt` as the file name.
 4. Verify that the received file is correctly decrypted.
 
-<sub>If you want to view the unencrypted file transfer, you can do so by navigating to the unencrypted1s folder: by doing ```bash 
-cd unencrypted1s```</sub>
-
+*If you want to view the unencrypted file transfer, you can do so by navigating to the `unencrypted1s` folder:*
+```bash
+cd unencrypted1s
+```
 
 ## Example Output
 
